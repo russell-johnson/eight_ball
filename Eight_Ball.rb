@@ -2,7 +2,7 @@ def intro_eight
 	while (true) do
 	puts "**Ask me a question!**"
 	question = gets.strip.downcase
-	intro_eight if question == "am i smart" ? puts "You are way smart" : eight_ball_answers
+	question == "am i smart" ? (puts "You are way smart!!") : eight_ball_answers
   puts "--Do you have another question?--"
   puts "--yes or no--"
   another_question = gets.strip.downcase
